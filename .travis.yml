@@ -1,9 +1,15 @@
 language: ruby
-  rvm:
-  - 2.3.1
-  install:
-  - bundle install
-  before_script:
-  - psql -c 'create database molten_light_version_two_test;' -U postgres
-  services:
-  - postgresql
+rvm:
+- 2.3.1
+install:
+- bundle install
+before_script:
+- psql -c 'create database my_awesome_project_test;' -U postgres
+services:
+- postgresql
+deploy:
+  api_key:
+    secure: NnRJjhHfSdVxnepVpA8BEl4A1sJ3rr09t7zPYeGr1rEZT9i/g6aGq9CSlC/J9CMN3JmqBX/dn0DAbiAg2IRLN92HSjljMQxf6ctnI313CkiGtR/Is321GbbQKrzDZ/MZLe6GQYQ3o9YVlY2DakJp5qhP8fZYGYK63OQ3ywAQm6u+ylgInCpZrZio87IVKrtJISD7rdCzXahuLA06wcdkLaooRnlbif6blfuvSxantAfUPF+lF86zWXKbkoLbevFYk5AIbz3wKX263QTYQQxPErjpD7x7j5S9L55u4fRL3Ql8uP0LphLPAA8pLr5PPYNjHFeLD2ZAUpPgv1GjH3cJ5ICbL2gXv6XrTeyW3Q2/qJLEatOGfnBsQhQJGr+ojRVpe0pNAx2PB6vJ6mNFYBq6Mzrpqrl0kkCI4cnpbnN4GTgyymw2XawFf7Uz9IcVrc/lzEqtrS6Hc4o+LFo3QoYOeXsXAZWfstSrErK1A8fNxLabYhOysXEb2Q3TabeHe89nOhU9rzay6YkxGbFbovPOYNSjlZtE3K4WPCF1T4vgEUnAbPdbKplgL2MaRFcucNYb3cG/ZbQQtjiO19dVfzGuF6fwMaJyDxhfx6pcOymxH8+rlwljhqDRvOCIra+O495h0Xtl2l+tk2kQfH2MX+afsYMzImDI56p4du0Fq1zB+Bs=
+  app: murmuring-reaches-90474
+addons:
+  code-climate: 919d4d7b8f8400b5ff26307f1b9651228cc9082979e21109dc2cb8555c47e334
