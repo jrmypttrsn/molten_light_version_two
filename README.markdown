@@ -1,3 +1,7 @@
+[![Code Climate](https://codeclimate.com/github/jrmypttrsn/molten_light_version_two/badges/gpa.svg)](https://codeclimate.com/github/jrmypttrsn/molten_light_version_two)
+
+[![Test Coverage](https://codeclimate.com/github/jrmypttrsn/molten_light_version_two/badges/coverage.svg)](https://codeclimate.com/github/jrmypttrsn/molten_light_version_two/coverage)
+
 #Molten Light v2
 
 Molten Light is an application that helps apparitions manage the people and places they haunt and allows them to connect with each other via microblogging.
