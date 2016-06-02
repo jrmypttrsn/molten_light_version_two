@@ -24,6 +24,9 @@ gem 'refills'
 # Use Kaminari for pagination
 # gem 'kaminari'
 
+# Use PG Search for postgres search
+# gem 'pg_search'
+
 # User authentication
 # gem 'sorcery'
 
