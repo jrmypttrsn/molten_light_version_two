@@ -15,11 +15,14 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 
 # Use Bourbon for Sass mixins
-# gem 'bourbon'
+gem 'bourbon'
 # Use Neat for Bourbon grid
-# gem 'neat'
+gem 'neat'
 # Use Refills for Bourbon components and patterns
-# gem 'refills'
+gem 'refills'
+
+# User authentication
+# gem 'sorcery'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
