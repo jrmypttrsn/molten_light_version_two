@@ -21,6 +21,9 @@ gem 'neat'
 # Use Refills for Bourbon components and patterns
 gem 'refills'
 
+# Use Kaminari for pagination
+# gem 'kaminari'
+
 # User authentication
 # gem 'sorcery'
 
