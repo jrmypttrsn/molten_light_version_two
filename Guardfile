@@ -21,6 +21,8 @@ guard :minitest, spring: true do
   watch(%r{^test/test_helper\.rb$})      { 'test' }
 end
 
+notification :terminal_notifier
+
   # with Minitest::Spec
   # watch(%r{^spec/(.*)_spec\.rb$})
   # watch(%r{^lib/(.+)\.rb$})         { |m| "spec/#{m[1]}_spec.rb" }
